@@ -20,4 +20,9 @@ describe('API', function(){
   it('/status should return specified healthy:true. ', function testHealth(done){
     request(server).get('/api/status').set('Accept', 'application/json').expect('Content-type', /json/).expect(200,{healthy: true},done)
   });
+
+  it('/user/id should return a user object with id. ', function testHealth(done){
+    var fakeUserID = 374;
+    request(server).get('/api/user/' + fakeUserID).set('Accept', 'application/json').expect('Content-type', /json/).expect(200,{user: {id:fakeUserID}},done)
+  });
 });

@@ -7,8 +7,13 @@ module.exports = function(express){
   });
 
   router.get('/status', function(req,res){
-    res.json({healthy: true})  
+    res.json({healthy: true})
   });
 
+
+  // this is how you get information from the url to look up a product or user id
+  router.get('/user/:id', function(req, res){
+    res.json({user:{ id: req.params.id}});
+  });
   return router;
 }
