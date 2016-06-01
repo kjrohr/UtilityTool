@@ -9,9 +9,11 @@ var app = express();
 
 // Config
 var port = 3000;
-app.listen(port, function(){
+var server = app.listen(port, function(){
   console.log("Our server is running on port: " + port + ".");
 });
 
 // Tell the app to use these routes
 app.use('/api', require('../routes/api.js')(express));
+
+module.exports = server;
