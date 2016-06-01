@@ -9,11 +9,15 @@ describe('API', function(){
   });
 
   afterEach(function(){
-    server.close();    
+    server.close();
   });
 
 
-  it('Should probably load, somehow', function(){
-    expect('daisy').toBe('daisy');
+  it('/ should return specified object', function testHealth(done){
+    request(server).get('/api').set('Accept', 'application/json').expect('Content-type', /json/).expect(200, {hello: "world"}, done)
+  });
+
+  it('/status should return specified healthy:true. ', function testHealth(done){
+    request(server).get('/api/status').set('Accept', 'application/json').expect('Content-type', /json/).expect(200,{healthy: true},done)
   });
 });
