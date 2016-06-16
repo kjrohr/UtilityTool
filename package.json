@@ -1,0 +1,22 @@
+{
+  "name": "utilitytool",
+  "version": "1.0.0",
+  "description": "Debugging Tool to help Developers",
+  "main": "util.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smvargas787/UtilityTool.git"
+  },
+  "keywords": [
+    "debug"
+  ],
+  "author": "Selena Vargas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Smvargas787/UtilityTool/issues"
+  },
+  "homepage": "https://github.com/Smvargas787/UtilityTool#readme"
+}
