@@ -1,5 +1,5 @@
 {
-  "name": "utilitytool",
+  "name": "debug-tracker",
   "version": "1.0.0",
   "description": "Debugging Tool to help Developers",
   "main": "util.js",
