@@ -41,12 +41,12 @@ Err! or Error!
 ```json
 // Read All Users
       router.get('/users', (req, res) => {
-        // Debug Tracker To Route
+        // Debug Tracker To Route Tool
         util.debug('Route Hit: GET /users', true);
         user.findAll((err) => {
           res.status(500).json(err);
         }, (data) => {
-          // Debug Tracker To Object Data
+          // Debug Tracker To Object Data Tool
           util.debug('Model Gave Back: FindAll Users', data);
           res.status(200).json(data);
         });
