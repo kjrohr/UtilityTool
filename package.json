@@ -1,35 +1,28 @@
 {
-  "name": "debug-tracker",
+  "name": "utilityTool",
   "version": "1.0.0",
-  "description": "Debugging Tool to help Developers",
-  "main": "util.js",
-  "engines": {
-    "node": "v6.2.1",
-    "npm": "3.8.9"
+  "description": "###Overview ######Debug Tracker is a logging tool established to make finding hidden errors more easier.",
+  "main": "lib/util.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "2.13.1",
+    "eslint-config-airbnb": "9.0.1",
+    "eslint-plugin-import": "1.9.2",
+    "eslint-plugin-jsx-a11y": "1.5.3",
+    "eslint-plugin-react": "5.2.2"
   },
   "scripts": {
-    "start": "node util.js",
     "test": "mocha"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Smvargas787/UtilityTool.git"
   },
-  "keywords": [
-    "debug"
-  ],
-  "author": "Selena Vargas",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Smvargas787/UtilityTool/issues"
   },
-  "homepage": "https://github.com/Smvargas787/UtilityTool#readme",
-  "devDependencies": {
-    "eslint": "2.12.0",
-    "eslint-config-airbnb": "9.0.1",
-    "eslint-plugin-import": "1.8.1",
-    "eslint-plugin-jsx-a11y": "1.5.3",
-    "eslint-plugin-react": "5.2.0",
-    "mocha": "^2.5.3"
-  }
+  "homepage": "https://github.com/Smvargas787/UtilityTool#readme"
 }
