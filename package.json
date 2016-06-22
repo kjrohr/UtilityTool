@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "Debugging Tool to help Developers",
   "main": "util.js",
+  "engines": {
+    "node": "v6.2.1",
+    "npm": "3.8.9"
+  },
   "scripts": {
+    "start": "node util.js"
     "test": "mocha"
   },
   "repository": {
@@ -25,5 +30,6 @@
     "eslint-plugin-import": "1.8.1",
     "eslint-plugin-jsx-a11y": "1.5.3",
     "eslint-plugin-react": "5.2.0"
+
   }
 }
