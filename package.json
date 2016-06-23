@@ -1,6 +1,6 @@
 {
-  "name": "utilityTool",
-  "version": "1.0.0",
+  "name": "Debug-Tracker",
+  "version": "1.3.0",
   "description": "###Overview ######Debug Tracker is a logging tool established to make finding hidden errors more easier.",
   "main": "lib/util.js",
   "dependencies": {},
